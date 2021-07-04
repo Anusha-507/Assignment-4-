@@ -1,0 +1,163 @@
+*{
+	margin:0px;
+	padding:0px;
+
+}
+.header {
+	height: 70px;
+	width: 100%;
+	#background-color: #1373d1;
+	display: flex;
+	justify-content: center;
+	position:fixed;
+}
+.container {
+	#height:70px;
+	width: 90%;
+	#background-color: #1373d1;
+	display: flex;
+}
+.logo {
+	height: 70px;
+	width: 15%;
+	#background-color: #1373d1;
+	font-size: 40px;
+	font-family: Segoe UI;
+	text-align: center;
+	font-weight: bold;
+	line-height: 70px;
+	color:white;
+}
+.nav {
+	height: 70px;
+	width: 35%;
+	#background-color: #1373d1;
+	display: flex;
+}
+.header_container{
+	justify-content:space-between;
+}
+.nav-items {
+	height: 70px;
+	width: 20%;
+	#background-color: #1373d1;
+	font-size: 20px;
+	font-family: Segoe UI;
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	cursor: pointer;
+}
+.nav-items:hover{
+	background-color:white;
+	color:blue;
+	transition:4s;
+}
+.banner {
+	height: 95vh;
+	width: 100%;
+	background-color: grey;
+	background-image: url('webimg.jpg');
+	background-size:cover;
+}
+.overlay{
+	height:95vh;
+	width:100%;
+	display:flex;
+	align-items:center;
+	background-color:rgba(0,0,0,0.5);
+}
+.banner-text{
+	height:350px;
+	width:50%;
+	background-color:rgba(16,128,234,0.7);
+	font-family:Segoe UI;
+	display:flex;
+	align-items:center;
+	color:white;
+
+}
+.padd {
+	padding: 20px;
+	#background-color: red;
+}
+.banner-title{
+	font-size:50px;
+	margin-bottom:50px;
+}
+.banner-desc{
+	margin-bottom:30px;
+}
+.banner-button{
+	padding-left:60px;
+	padding-right:60px;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-transform:uppercase;
+	background-color:transparent;
+	color:white;
+	font-weight:bold;
+	font-family:Segoe UI;
+	border:3px solid white;
+	cursor:pointer;
+}
+.banner-button:hover {
+		background-color: white;
+		cursor: pointer;
+		color: #1373d1;
+		transition: 2s;
+	}
+.services {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #efe7e7;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: sogeo UI;
+}
+.service{
+	height:400px;
+	width:47%;
+	background-color:white;
+	display:inline-flex;
+	margin-top:20px;
+}
+.services-container{
+	margin-top:50px;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.service-img {
+	width: 40%;
+	height: 400px;
+	#background-color: red;
+	display:flex;
+	overflow:hidden;
+}
+.service-details {
+	width:60%;
+	height:400px;
+	#background-color: green;
+	display:flex;
+	align-items:center;
+}
+.service_btn {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	background-color: #1373d1;
+	color: white;
+	font-weight: bold;
+	font-family: Segoe UI;
+	#border: 3px solid white;
+	cursor: pointer;
+}
+.service_title{
+	margin-bottom:15px;
+}
+.service_decs {
+	margin-bottom: 50px;
+}
